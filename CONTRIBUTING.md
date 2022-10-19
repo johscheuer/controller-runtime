@@ -17,3 +17,5 @@ Please see https://git.k8s.io/community/CLA.md for more info
 ## Test locally
 
 Run the command `make test` to test the changes locally.
+
+*note*: If you use an arm64 Mac (M1 or M2) you have to run `ENVTEST_K8S_VERSION='1.24.1' make test`

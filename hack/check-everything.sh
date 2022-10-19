@@ -22,7 +22,6 @@ hack_dir=$(dirname ${BASH_SOURCE})
 source ${hack_dir}/common.sh
 
 tmp_root=/tmp
-kb_root_dir=$tmp_root/kubebuilder
 
 # Run verification scripts.
 ${hack_dir}/verify.sh
